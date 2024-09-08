@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(240, 236, 233);
+    font-family: "Oswald" , sans-serif;
+    margin: auto;
+    max-width: 1200px;
+}
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px
+}
+
+#contact p{
+    text-align: center;
+    display: inline-block; 
+    margin: 20px; 
+}
+
+#contact {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    margin: 5px;
+}
+#contact:hover{
+    background-color: #ebdadc;
+    transition:  0.6s ease;
+}
+h2:hover{
+    font-size: 2em;
+    transition:  0.6s ease;
+    
+}
+p,ul {
+    margin: 20px
+}
