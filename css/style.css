@@ -3,6 +3,7 @@ body {
     font-family: "Oswald" , sans-serif;
     margin: auto;
     max-width: 1200px;
+    font-size: 1em;
 }
 h1, h2 {
     text-align: center;
